@@ -10,6 +10,10 @@ body{
     float: left;
     margin-left: 10%;
 }
+.title-section{
+    font-size: 50px;
+    font-weight: 400;
+}
 .pad{
     padding-top: 100px;
 }
@@ -82,7 +86,7 @@ section{
     margin: auto;
     text-align: center;
 }
-.client1{
+.clients{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: left;
