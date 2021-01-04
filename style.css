@@ -1,0 +1,72 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.half-width{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+.pad{
+    padding-top: 100px;
+}
+.half-width::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+section{
+    height: 600px;
+    padding:100px 0;
+}
+.half-width img{
+    width: 100%;
+}
+.highlight{
+    color: #ec4c74;
+}
+.half-width p{
+    margin-bottom: 50px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #ec4c74;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.work h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+.third{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+.third img{
+    width: 100%;
+}
+.work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer p{
+    text-align: center;
+}
+
