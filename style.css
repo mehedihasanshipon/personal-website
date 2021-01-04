@@ -22,9 +22,10 @@ body{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    background-size: 100%;
 }
 section{
-    height: 600px;
+    height: 500px;
     padding:100px 0;
 }
 .half-width img{
@@ -47,6 +48,8 @@ section{
 .biography{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
 }
 .work h1{
     text-align: center;
@@ -57,6 +60,7 @@ section{
     width: 30%;
     float: left;
     margin-left: 2%;
+    padding-left: 0;
 }
 .third img{
     width: 100%;
@@ -64,7 +68,26 @@ section{
 .work{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    background-size: 100%;
+}
+.client{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.client1{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+}
+.contact{
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ec4c74;
+    margin: 50px 0;
 }
 footer p{
     text-align: center;
