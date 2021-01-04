@@ -44,6 +44,12 @@ section{
     padding: 10px 30px;
     border-radius: 5px;
     margin-bottom: 50px;
+    border: 2px solid #ec4c74;
+    transition: 1s ease;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #ec4c74;
 }
 .biography{
     background-image: url(images/biography-bg.png);
